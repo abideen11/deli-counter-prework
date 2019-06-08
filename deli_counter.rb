@@ -5,5 +5,6 @@ def line(katz_deli)
  else 
    katz_deli.each do |i| 
      "Hi #{katz_deli}, you are " + (i+1) + " in line."
+   end 
 end
 end 
