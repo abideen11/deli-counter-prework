@@ -8,3 +8,8 @@ def line(katz_deli)
    end 
 end
 end 
+
+def take_a_number(katz_deli,new_person)
+puts "#{katz_deli} is" + (i+1) + "in line."
+katz_deli.pop 
+end 
